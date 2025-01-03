@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 fastapi = "*"
 sqlalchemy = "*"
+psycopg2-binary = "*"
+pydantic = {extras = ["email"], version = "*"}
 
 [dev-packages]
 
