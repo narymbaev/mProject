@@ -8,9 +8,10 @@ fastapi = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
 pydantic = {extras = ["email"], version = "*"}
+uvicorn = "*"
+bcrypt = "*"
 
 [dev-packages]
-
-[requires]
-python_version = "3.9"
-python_full_version = "3.9.6"
+#[requires]
+#python_version = "3.9"
+#python_full_version = "3.9.6"
